@@ -7,16 +7,29 @@
 <!--<![endif]-->
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171839056-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171839056-1');
+  </script>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Reeds 25 jaar de Printing shop van Antwerpen. Ons team van experts staan 7 dagen per week klaar om u van A tot Z te begeleiden.">
+  <meta name="description" content="Reeds 25 jaar de Print shop van Antwerpen. Ons team van experts staan klaar om u van A tot Z te begeleiden.">
   <meta name="keywords"
-    content="Drukwerk, Flyers, Folders, Spoeddruk, Visitekaartjes, Brochures, Magazines, Posters, Roll-up Banners, Enveloppen, Printen, Inbinden, Eindwerken, Cursussen, Dossiers, Misboekjes, Doopboekjes, Ringen, Inlijmen, Vouwen, Nieten, Thesissen, Scripties, Afwerking, Stickers, Snijden, Rillen, Plastificeren, Perforeren">
+    content="Drukwerk, Flyers, Folders, Spoeddruk, Visitekaartjes, Brochures, Magazines, Posters, Roll-up Banners, Enveloppen, Printen, Inbinden, Eindwerken, Cursussen, Dossiers, Misboekjes, Doopboekjes, Ringen, Inlijmen, Vouwen, Nieten, Thesissen, Scripties, Afwerking, Stickers, Snijden, Rillen, Plastificeren, Perforeren,
+Printing, Flyers, Folders, Express printing, Business cards, Brochures, Magazines, Posters, Roll-up Banners, Envelopes, Printing, Binding, Finishing, Courses, Files, Misbooks, Baptismal books, Rings, Gluing, Folding, Stapling, Theses, Theses, Finishing , Stickers, Cutting, Creasing, Plasticizing, Perforating">
+
 
   <meta name="author" content="ginjo.io">
 
-  <title>The printing shop - Snel en kwalitatief</title>
+  <title>The Printing Shop - Snel en kwalitatief drukwerk</title>
 
   <!-- FAVICON -->
   <link rel="apple-touch-icon" sizes="57x57" href="fav.ico/apple-icon-57x57.png">
@@ -67,6 +80,19 @@
       overflow-x: hidden;
     }
 
+    #footer img {
+      vertical-align: middle;
+      border-style: none;
+      height: 120px;
+      margin-bottom: 30px;
+    }
+
+    #contacttop .top {
+      padding-right: 1px;
+      padding-left: 1px;
+    }
+
+
 
     /*---------------------------------- -----------------------------------------------------------------------
   Custom CSS
@@ -101,7 +127,7 @@
     }
 
     #work {
-      padding-top: 150px;
+      padding-top: 100px;
     }
 
     #about {
@@ -142,22 +168,10 @@
   -----------------------------------*/
 
 
-    @media (min-width: 992px) and (max-width: 2560px) {
-      .time {
-        visibility: hidden;
-        margin-top: 2px;
-      }
-
-
-    }
 
 
     @media (min-width: 768px) and (max-width: 2560px) {
 
-      .time {
-        visibility: hidden;
-        margin-top: 2px;
-      }
 
 
 
@@ -227,6 +241,12 @@
       }
 
 
+      .flag2 {
+        display: hidden;
+
+      }
+
+
       .contact-info-block1 {
 
 
@@ -243,6 +263,13 @@
         margin-bottom: 20px;
         display: block;
         color: #eb252eff;
+      }
+
+      #footer img {
+        vertical-align: middle;
+        border-style: none;
+        height: 120px;
+        margin-bottom: 30px;
       }
 
     }
@@ -271,6 +298,12 @@
         color: #eb252eff;
       }
 
+      #footer img {
+        vertical-align: middle;
+        border-style: none;
+        height: 120px;
+        margin-bottom: 30px;
+      }
 
     }
 
@@ -278,40 +311,30 @@
         TABLET LAYOUT: 992px
 ------------------------------------*/
 
-    @media (min-width: 769px) and (max-width: 991px) {
-      .navbar-dark .navbar-toggler {
-        color: rgb(255, 255, 255);
-        border-color: rgb(255, 255, 255);
-      }
-
-      #contacttop {
-        padding: 100px 60px 0 0;
-      }
-
-      .menu-2 img {
-        vertical-align: middle;
-        border-style: none;
-        height: 120px;
-      }
-
-    }
 
 
-    @media (max-width: 1200px) {
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
       #banner h4 {
         font-size: 25px;
 
       }
 
+      .contact-info-block1 {
+    padding: 55.5px 20px;
+    border-radius: 5px;
+}
+
+      #footer img {
+        vertical-align: middle;
+        border-style: none;
+        height: 120px;
+        margin-bottom: 30px;
+      }
+
     }
 
 
-    @media (max-width: 992px) {
-
-      .time {
-        padding-top: 1px;
-
-      }
+    @media (max-width: 991px) {
 
       #banner #intro {
         margin-top: 10px;
@@ -331,8 +354,12 @@
         padding: 20px;
         padding-right: 30px;
         margin-top: 1px;
-
       }
+
+
+            .pt-6 {
+                padding-top: 4.5rem;
+            }
 
       .contact-info-block1 {
         padding: 55.5px 20px;
@@ -350,6 +377,89 @@
         color: #eb252eff;
       }
 
+      #footer img {
+        vertical-align: middle;
+        border-style: none;
+        height: 120px;
+        margin-bottom: 30px;
+      }
+
+    }
+
+
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+      .navbar-dark .navbar-toggler {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+      }
+
+      #contacttop {
+      padding: 40px 0 0 0;
+  }
+
+  .logo-bar {
+      padding: 40px 0px 100px 0px;
+  }
+
+  .main-navigation {
+    margin-top: -60px;
+}
+
+      .menu-2 img {
+        vertical-align: middle;
+        border-style: none;
+        height: 120px;
+      }
+
+      .contact-info-block1 {
+        padding: 41px 20px;
+        border-radius: 5px;
+      }
+    }
+
+
+    @media only screen and (min-width: 576px) and (max-width: 768px) {
+
+      .contact-info-block1 {
+        padding: 55.5px 20px;
+        border-radius: 5px;
+      }
+
+      .banner-content {
+        margin-right: -60px;
+      }
+
+      .banner-contact-form {
+        margin-right: -55px;
+      }
+    }
+
+
+    @media only screen and (min-width: 240px) and (max-width: 576px) {
+
+      .contact-info-block1 {
+        padding: 41px 20px;
+        border-radius: 5px;
+        margin-bottom: 25px;
+      }
+
+      .banner-content {
+        margin-right: ;
+      }
+
+      .banner-contact-form {
+        margin-right:;
+      }
+
+      .btn {
+    font-size: .6875rem;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0.5rem 1.7rem;
+    }
     }
 
     /* Phones ----------------------------------------------------------------------- */
@@ -371,17 +481,6 @@
         vertical-align: middle;
         border-style: none;
         height: 120px;
-      }
-
-
-      .time {
-        padding-top: 1px;
-
-      }
-
-      #banner {
-        margin-top: -100px;
-
       }
 
       #banner #intro {
@@ -415,23 +514,32 @@
         letter-spacing: 2px;
       }
 
-
-
       .banner-content {
         padding: 20px;
         padding-right: 30px;
-        margin-top: 100px;
-
+        margin-top: 250px;
       }
+
+
+                  #student .block h4 {
+                    font-family: 'Alfa Slab One', sans-serif !important;
+                    font-weight: 300;
+                    font-size: 30px;
+                    line-height: 60px;
+                    letter-spacing: 10px;
+                      color: #fff;
+                  }
+
+                  .contact-info-block3 {
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgba(235, 36, 45, 0.6);
+}
 
       .display-4 {
-        font-size: 4.5rem;
-      }
-
-
-      .contact-info-block1 {
-        padding: 55.5px 20px;
-        border-radius: 5px;
+        font-size: 3.5rem;
       }
 
       .contact-info-block1 h4 {
@@ -454,60 +562,8 @@
 
     }
 
-
-    @media (max-width: 640px) {
-
-      .time {
-        margin: 250px 0 0 0;
-      }
-    }
-
-    .menu-2 img {
-      vertical-align: middle;
-      border-style: none;
-      height: 120px;
-    }
-
-    .navbar-dark .navbar-toggler {
-      color: rgb(255, 255, 255);
-      border-color: rgb(255, 255, 255);
-    }
-
-    .banner-content {
-      padding-top: 50px 0px;
-
-    }
-
-    .banner-content .display-4 {
-      font-size: 50px;
-    }
-
-    #service p {
-      padding-right: 60px;
-    }
-
-
-    .contact-info-block1 {
-      padding: 55.5px 20px;
-      border-radius: 5px;
-      margin-bottom: 25px;
-    }
-
-    #footer img {
-      vertical-align: middle;
-      border-style: none;
-      height: 120px;
-      margin-bottom: 30px;
-    }
-
-    }
-
-
     @media only screen and (min-width: 320px) and (max-width: 425px) {
 
-      .time {
-        margin: 250px 0 0 0;
-      }
 
       .menu-2 img {
         vertical-align: middle;
@@ -519,30 +575,71 @@
         color: rgb(255, 255, 255);
         border-color: rgb(255, 255, 255);
       }
+
       .contact-info-block2 {
-          border: 1px solid #eee;
-          padding: 20px 20px;
-          border-radius: 5px;
-            margin: 20px 5px 0 5px;
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        padding: 0 0 0;
+        margin: 0 0 0;
       }
 
 
-        .contact-info-block4 {
-            padding: 20px 20px;
-            border-radius: 10px;
-            margin: 40px;
-            background-color: rgba(235, 36, 45, 0.6);
-            color: #fff;
-            text-align: center;
-        }
+      .contact-info-block4 {
+        padding: 20px 20px;
+        border-radius: 10px;
+        margin: 40px;
+        background-color: rgba(235, 36, 45, 0.6);
+        color: #fff;
+        text-align: center;
+      }
+
+
+
+            #student .block h4 {
+              font-family: 'Alfa Slab One', sans-serif !important;
+              font-weight: 300;
+              font-size: 25px;
+              line-height: 60px;
+              letter-spacing: 10px;
+                color: #fff;
+            }
+
+            #student .block h3 {
+              font-family: "Muli", sans-serif !important;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 40px;
+              letter-spacing: 5px;
+              text-align: center;
+                color: #fff;
+            }
+
+            #student .block h2 {
+              font-family: "Muli", sans-serif !important;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 30px;
+              letter-spacing: 2px;
+              text-align: left;
+              color: #000;
+          }
+
+          .contact-info-block3 {
+          padding: 10px 20px;
+          border-radius: 20px;
+          margin: auto;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          background-color: rgba(235, 36, 45, 0.6);
+      }
+
+
 
       .banner-content {
-        padding-right: 0px;
+        padding: 2px;
+        padding-right: 1px;
       }
 
       .banner-content .display-4 {
-        font-size: 50px;
+        font-size: 35px;
       }
 
       #footer img {
@@ -558,33 +655,48 @@
 
     /* Phones ----------------------------------------------------------------------- */
 
-    @media (max-width: 330px) {
 
-      .contact-info-block2 {
-        border: 1px solid #eee;
-        padding: 40px 20px;
-        border-radius: 5px;
-        margin: 20px 5px 0 5px;
+    @media (max-width: 425px) {
+
+      .banner-content {
+
+        margin-top: 250px;
       }
     }
 
-    @media (max-width: 240px) {
+    #service p {
+      font-size: 17px;
+      padding-right: 50px;
+    }
+    }
 
-      .menu-2 img {
-          vertical-align: middle;
-          border-style: none;
-          height: 80px;
+
+
+    @media (max-width: 375px) {
+      .banner-content {
+        margin-top: 200px;
       }
 
-      .time {
-        margin: -50px 0 0 0;
+    }
+
+
+
+    @media only screen and (min-width: 240px) and (max-width: 320px) {
+
+      .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+      }
+
+      .menu-2 img {
+        vertical-align: middle;
+        border-style: none;
+        height: 80px;
       }
 
       .contact-info-block2 {
-        border: 1px solid #eee;
-        padding: 40px 20px;
-        border-radius: 5px;
-        margin: 30px 5px 40px 5px;
+        padding: 0 0 0;
+        margin: 0 0 0;
       }
 
 
@@ -600,11 +712,71 @@
 
       }
 
+
+      .banner-content {
+        padding: 2px;
+        padding-right: 1px;
+        margin-top: 190px;
+      }
+
       .banner-content .display-4 {
-        font-size: 30px;
+        font-size: 40px;
       }
 
     }
+
+/* modal */
+
+    .modal-dialog .modal-content{
+        box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+        border-radius: 6px;
+        border: none;
+    }
+    .modal-dialog .modal-header{
+        border-bottom: none;
+        padding-top: 24px;
+        padding-right: 24px;
+        padding-bottom: 0;
+        padding-left: 24px;
+    }
+
+    .modal-dialog .modal-header .modal-title{
+        font-size: 17px;
+        font-weight: 300;
+        color: #3C4858;
+        margin-bottom: 0;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    .modal-dialog .modal-body {
+        padding-top: 24px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        color: #3C4858;
+    }
+
+    .modal .modal-header .close i{
+        font-size: 16px;
+        color: #999;
+    }
+
+    .modal-dialog .modal-footer{
+        border-top: none;
+        padding: 24px !important;
+    }
+
+    .modal-dialog .modal-body+.modal-footer{
+        padding-top: 0 !important;
+    }
+    .modal-dialog .modal-footer button{
+        margin: 0 !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        width: auto;
+    }
+
   </style>
 
 </head>
@@ -616,7 +788,6 @@
 
 
 <body id="page-top">
-
 
 
   <!-- LOADER TEMPLATE -->
@@ -649,13 +820,18 @@
   </div>
   <!--Modal: modalCookie-->
 
+ <!-- <div class="container" id="flag2">
+
+    <div style="float: right;margin-top:10px;" class="flag2">
+    <a href="index.html"> <img style="height: 50px;" src="images/nl.png" alt="dutch"> </a> / <a href="index2.html"> <img style="height: 50px;" src="images/uk.png" alt="english"> </a>
+    </div>
+
+  </div> -->
+
   <!-- /LOADER TEMPLATE -->
   <div class="logo-bar d-none d-md-block d-lg-block bg-light">
     <div class="container">
 
-      <div style="float: right;" class="flag">
-        <p><a href="index.html"> <img style="height: 30px;" src="images/nl.png" alt="dutch"> </a> / <a href="index2.html"> <img style="height: 30px;" src="images/uk.png" alt="english"> </a></p>
-      </div>
 
 
       <div class="row">
@@ -669,38 +845,54 @@
         </div>
 
         <div id="contacttop" class="col-lg-8 justify-content-end ml-lg-auto d-flex col-12">
-          <div class="top-info-block d-inline-flex">
-            <div class="icon-block">
-              <i class="ti-mobile"></i>
-            </div>
-            <div class="info-block">
-              <h5 class="font-weight-500">+32 (0) 483 069 172</h5>
-              <p>Telefoon / Whatsapp</p>
-            </div>
-          </div>
+<div class="row">
+<div class="top col-md-4 col-lg-4">
+  <div class="top-info-block d-inline-flex">
+    <div class="icon-block">
+      <i class="ti-mobile"></i>
+    </div>
+    <div class="info-block">
+      <h5 class="font-weight-500">+32 (0) 483 069 172</h5>
+      <p>Telefoon / Whatsapp</p>
+    </div>
+  </div>
+</div>
+<div class="top col-md-4 col-lg-4">
+  <div class="top-info-block d-inline-flex">
+    <div class="icon-block">
+      <i class="ti-email"></i>
+    </div>
+    <div class="info-block">
+      <h5 class="font-weight-500">info@tpshop.be</h5>
+      <p>E-mail</p>
+    </div>
+  </div>
+</div>
+<div class="top col-md-4 col-lg-4">
+  <div class="top-info-block d-inline-flex">
+    <div class="icon-block">
+      <i class="ti-time"></i>
+    </div>
+    <div class="info-block">
+      <h5 class="font-weight-500">Ma-Vr 10:00-18:00 <br> Za-Zo 11:00-17:00 </h5>
+      <p><b>LET OP:</b> Juli-Augustus gesloten op zondag</p>
+    </div>
+  </div>
+</div>
 
-          <div class="top-info-block d-inline-flex">
-            <div class="icon-block">
-              <i class="ti-email"></i>
-            </div>
-            <div class="info-block">
-              <h5 class="font-weight-500">info@tpshop.be</h5>
-              <p>E-mail</p>
-            </div>
-          </div>
-          <div class="top-info-block d-inline-flex">
-            <div class="icon-block">
-              <i class="ti-time"></i>
-            </div>
-            <div class="info-block">
-              <h5 class="font-weight-500">Ma-Vr 10:00-18:00 <br> Za-Zo 11:00-17:00 </h5>
-              <p>7/7 geopend</p>
-            </div>
-          </div>
+</div>
+
+
+
+
+
+
         </div>
       </div>
     </div>
   </div>
+
+
 
 
 
@@ -712,15 +904,15 @@
   <div class="main-navigation menu-2" id="mainmenu-area">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable rounded-radius" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand d-lg-none d-block" href="index.html">
-            <img src="images/g869.png" alt="The printing shop">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span>
-          </button>
 
-          <!--  <select onchange="location = this.value;" class="selectpicker" data-width="fit">
+        <a class="navbar-brand d-lg-none d-block" href="index.html">
+          <img src="images/g869.png" alt="The printing shop">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars"></span>
+        </button>
+
+        <!--  <select onchange="location = this.value;" class="selectpicker" data-width="fit">
 
     <option value="index.html">Change language</option>
 
@@ -728,24 +920,24 @@
 
           </select> -->
 
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#service">Diensten</a>
-              </li>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#service">Diensten</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#work">Samples</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">Over ons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#work">Samples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Over ons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+
       </nav>
     </div> <!-- / .container -->
   </div>
@@ -753,6 +945,8 @@
 
   <!--landing _________________________________________________________________________________________________________________________________
           _________________________________________________________________________________________________________________________________
+
+
           _________________________________________________________________________________________________________________________________ -->
 
 
@@ -761,40 +955,86 @@
     <!-- Content -->
     <div class="container">
 
-      <div class="time">
-
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="contact-info-block2 text-center">
-              <h5>Openingstijden</h5>
-              <p class="font-weight-500">Ma-Vr 10:00-18:00 <br> Za-Zo 11:00-17:00 </p>
-              <h5></h5>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <br> <br>
 
 
 
       <div class="row  align-items-center justify-content-center">
         <div class="col-md-12 col-lg-8">
-          <div class="banner-content text-center text-lg-left">
+          <div class="banner-content text-lg-left">
             <!-- Heading -->
             <h1 class="display-4 mb-4 ">
-              7/7 OPEN
+              Snel en kwalitatief drukwerk
             </h1>
 
             <!-- Subheading -->
-            <p class="lead mb-5"> Snel en toegangelijk, we helpen u graag verder.
+            <p class="lead mb-5"> Stuur je bestand door via ons verzendportaal.
             </p>
 
+
+
+            <!--- model start-->
+                        <button class="btn btn-block btn-primary " data-toggle="modal" data-target="#myModal">
+                            <i class="material-icons">Lees Instructies</i>
+                            <div class="ripple-container"></div>
+                        </button>
+
+                           <div class="modal fade show" id="myModal" tabindex="-1" role="dialog">
+                           <div class="modal-dialog" role="document">
+                               <div class="modal-content">
+                                   <div class="modal-header">
+                                       <h5 class="modal-title">Instructies</h5>
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                           <i class="material-icons">clear</i>
+                                       </button>
+
+
+                                   </div>
+                                   <div class="modal-body">
+                                    <p>
+                                          - Maak eerst en vooral een gratis account aan bij wetransfer. <br>
+                                          - Stuur enkel PDF formaat, deze bied de beste kleur kwaliteit. <br>
+                                          - Geef duidelijk weer: kleur of zwart/wit. <br>
+                                          - Geef duidelijk weer: enkel of dubbelzijdig. <br>
+                                          - Geef duidelijk het formaat weer. Vraag naar onze voorwaarden.</p>
+                                   </div>
+                                   <div class="modal-footer">
+
+                                       <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+            <!--- model end -->
+
+<br> <br>
+            <div style="margin-right:50px;" class="card">
+
+	<header class="card-header">
+		<a href="#" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" class="">
+
+			<span class="title">Lees Instructies</span>
+		</a>
+	</header>
+
+    <div class="panel-collapse  collapse show" id="collapse22" style="">
+      <article class="card-body">
+
+      - Maak eerst en vooral een gratis account aan bij wetransfer. <br>
+      - Stuur enkel PDF formaat, deze bied de beste kleur kwaliteit. <br>
+      - Geef duidelijk weer: kleur of zwart/wit. <br>
+      - Geef duidelijk weer: enkel of dubbelzijdig. <br>
+      - Geef duidelijk het formaat weer. Vraag naar onze voorwaarden.
+      </article> <!-- card-body.// -->
+    </div> <!-- collapse .// -->
+
+
+</div> <!-- card.// -->
+
             <!-- Button -->
-            <p class="mb-0">
+            <p style="margin-top:50px;"class="mb-0">
               <a href="https://theprintingshop.wetransfer.com/" target="_blank" class="btn btn-primary btn-circled">
-                Bestelling plaatsen
+                Bestand verzenden
               </a>
             </p>
           </div>
@@ -970,6 +1210,67 @@
         </div>
       </div>
     </div> -->
+  </section>
+
+
+  <!--student _________________________________________________________________________________________________________________________________
+              _________________________________________________________________________________________________________________________________ -->
+
+
+
+  <section class="" id="student">
+    <div class="container">
+      <div class="block">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="contact-info-block3 text-center">
+              <h4>STUDENTEN <br> ACTIE </h4>
+            </div>
+          </div>
+        </div>
+        <br> <br> <br>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="contact-info-block6">
+              <h3> VOOR ELKE STUDENT, DIRECT DE LAAGSTE PRIJS </h3>
+              <br>
+              <div class="card">
+      	<header class="card-header">
+      		<a href="#" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" class="">
+      			<i class="icon-action fa fa-chevron-down"></i>
+      			<span class="title">Lees meer over deze actie</span>
+      		</a>
+      	</header>
+      	<div class="collapse show" id="collapse22" style="background-color: rgba(223, 128, 133, 0.35);">
+      		<article class="card-body">
+
+                          <h2>
+
+                          <b>Instructies: </b>  <br>
+<br>
+                            <img style="width:10px;" src="images/dot.png" alt=""> Enkel van toepassing bij het aanleveren van PDF. (De korting geldt niet bij Word, Powerpoint, etc. )<br>
+<br>
+                            <img style="width:10px;" src="images/dot.png" alt=""> Geldig voor alle schoolbundels, lesmaterialen, thesissen, eindwerken.  <br>
+<br>
+                            <img style="width:10px;" src="images/dot.png" alt=""> Bestellen kan via <a href="#contact">mail</a> , zet [STUDENT] in je titel zodat we je korting direct kunnen toepassen. <br>
+<br>
+                            <img style="width:10px;" src="images/dot.png" alt=""> Na je bestelling krijg je een bevestiging wanneer het printwerk klaarligt (standaard 1 à 2 uur na bestelling).
+</h2>
+      		</article> <!-- card-body.// -->
+      	</div> <!-- collapse .// -->
+      </div> <!-- card.// -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
   </section>
 
   <!--samples _________________________________________________________________________________________________________________________________
@@ -1224,19 +1525,40 @@
         <div class="col-sm-12  col-md-6 col-lg-6">
 
           <h2 style="padding-top: 10px;" class="section-title mb-2 ">
-            Bestellen? <span class="font-weight-normal"></span>
+            Bestand verzenden? <span class="font-weight-normal"></span>
           </h2>
 
           <p class="mb-5 ">
-            Verstuur je bestand via ons bestel portaal.
+            Verstuur je bestand via ons verzendportaal.
           </p>
 
+          <div style="margin-right:50px;" class="card">
+
+<header class="card-header card">
+  <a href="#" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" class="">
+
+    <span class="title">Lees Instructies</span>
+  </a>
+</header>
+
+  <div class="panel-collapse1 collapse show" id="collapse22" style="">
+    <article class="card-body">
+
+    - Maak eerst en vooral een gratis account aan bij wetransfer. <br>
+    - Stuur enkel PDF formaat, deze bied de beste kleur kwaliteit. <br>
+    - Geef duidelijk weer: kleur of zwart/wit. <br>
+    - Geef duidelijk weer: enkel of dubbelzijdig. <br>
+    - Geef duidelijk het formaat weer. Vraag naar onze voorwaarden.
+    </article> <!-- card-body.// -->
+  </div> <!-- collapse .// -->
 
 
+</div> <!-- card.// -->
 
-          <p class="mb-0">
+
+          <p style="margin-top: 50px;" class="mb-0">
             <a href="https://theprintingshop.wetransfer.com/" target="_blank" class="btn btn-primary btn-circled">
-              Bestelling plaatsen
+              Bestand verzenden
             </a>
           </p>
 
@@ -1349,11 +1671,11 @@
           <!-- End Contacts Form -->
         </div>
 
-          <!-- END MAP   <div style="padding-top: 23px;" class="col-lg-6 col-md-6">
+        <!-- END MAP   <div style="padding-top: 23px;" class="col-lg-6 col-md-6">
                START MAP
               <div id="map"></div> -->
-        </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -1373,104 +1695,133 @@
     <div class="overlay footer-overlay"></div>
     <!--Content -->
     <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-lg-4 col-sm-12">
-          <div class="footer-widget">
-            <!-- Brand -->
-            <a href="#" class="footer-brand text-white">
-              <a class="navbar-brand js-scroll-trigger" href="index.html">
-                <img src="images/g1037.png" alt="printing shop logo">
-              </a>
+      <div class="row">
+        <!--column1 -->
+        <div class="col-md-4 col-lg-4">
 
-            </a>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 ">
+              <div class="footer-widget">
+                <!-- Brand -->
+                <a href="#" class="footer-brand text-white">
+                  <a class="navbar-brand js-scroll-trigger" href="index.html">
+                    <img src="images/g1037.png" alt="printing shop logo">
+                  </a>
+
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-12 ">
+
+              <div class="footer-widget">
+
+                <div class="contact-info-block2">
+                  <h3 style="color: #fff;">Openingsuren</h3>
+                  <p style="color: #fff;">Ma-Vr 10:00-18:00 <br> Za-Zo 11:00-17:00 </p>
+                  <h4 style="padding-right: 100px;color:#fff"> LET OP: Juli-Augustus gesloten op zondag</h4>
+                </div>
+
+
+              </div>
+
+              <br><br>
+
+            </div>
+
           </div>
         </div>
 
-        <div class="col-lg-2 col-sm-4">
 
-          <div class="footer-widget">
-            <h3>Social Media</h3>
-            <!-- Links -->
-            <ul class="list-unstyled footer-links">
-              <li><a href="https://www.facebook.com/KoppieKopie.be"><i class="fab fa-facebook-f"></i>Facebook</a></li>
 
-            </ul>
-          </div>
+        <!--column2 -->
+        <div class="col-md-8 col-lg-8">
+
+          <div class="row">
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="footer-widget">
+                <h3>Navigatie</h3>
+                <!-- Links -->
+                <ul class="footer-links ">
+
+                  <li class="nav-item ">
+                    <a href="index.html" class="nav-link js-scroll-trigger">
+                      Home
+                    </a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a href="#service" class="nav-link js-scroll-trigger">
+                      Diensten
+                    </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="#work" class="nav-link js-scroll-trigger">
+                      Samples
+                    </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="#about" class="nav-link js-scroll-trigger">
+                      Over ons
+                    </a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a href="#contact-info" class="nav-link">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="footer-widget">
+                <h3>Social Media</h3>
+                <!-- Links -->
+                <ul class="list-unstyled footer-links">
+                  <li><a href="https://www.facebook.com/KoppieKopie.be"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <div class="footer-widget">
+                <h3>Account</h3>
+                <!-- Links -->
+                <ul class="footer-links ">
+
+                  <li>
+                    <a href="privacy_NL.html">
+                      Privacy beleid
+                    </a>
+                  </li>
+
+
+                  <li>
+                    <!--  <a href="faq.html">
+                               Veel gestelde vragen
+                             </a> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div> <!-- / .row -->
 
         </div>
+      </div>
+    </div>
 
-
-        <div class="col-lg-2 col-sm-4">
-          <div class="footer-widget">
-            <h3>Navigatie</h3>
-            <!-- Links -->
-            <ul class="footer-links ">
-
-              <li class="nav-item ">
-                <a href="index.html" class="nav-link js-scroll-trigger">
-                  Home
-                </a>
-              </li>
-
-              <li class="nav-item ">
-                <a href="#service" class="nav-link js-scroll-trigger">
-                  Diensten
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a href="#work" class="nav-link js-scroll-trigger">
-                  Samples
-                </a>
-              </li>
-              <li class="nav-item ">
-                <a href="#about" class="nav-link js-scroll-trigger">
-                  Over ons
-                </a>
-              </li>
-
-              <li class="nav-item ">
-                <a href="#contact-info" class="nav-link">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-sm-4">
-          <div class="footer-widget">
-            <h3>Account</h3>
-            <!-- Links -->
-            <ul class="footer-links ">
-
-              <li>
-                <a href="privacy_NL.html">
-                  Privacy beleid
-                </a>
-              </li>
-
-
-              <li>
-                <!--  <a href="faq.html">
-                  Veel gestelde vragen
-                </a> -->
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div> <!-- / .row -->
-
-
-
-      <div class="row text-right pt-5">
-        <div class="col-lg-12">
-          <!-- Copyright -->
-          <p class="footer-copy ">
-            &copy; Copyright <span class="current-year"><a href="https://ginjo.io/">ginjo.io</a> </span> Alle rechten voorbehouden.
-          </p>
-        </div>
-      </div> <!-- / .row -->
+    <div class="row text-right pt-5">
+      <div class="col-lg-12">
+        <!-- Copyright -->
+        <p class="footer-copy ">
+          &copy; Copyright <span class="current-year"><a href="https://ginjo.io/">ginjo.io</a> </span> Alle rechten voorbehouden.
+        </p>
+      </div>
+    </div> <!-- / .row -->
     </div> <!-- / .container -->
   </footer>
 
@@ -1523,6 +1874,28 @@
     });
   </script>
 
+<!-- card collapse on hover -->
+
+<script>
+$(".card").mouseenter(function () {
+      $(".panel-collapse1").fadeIn();
+  });
+$(".panel-collapse1").mouseleave(function(){
+     $(".panel-collapse1").fadeOut();
+});
+</script>
+
+
+<script>
+$(document).ready(function() {
+  $('body').bootstrapMaterialDesign();
+  document.getElementById("btnLogin").click();
+  setTimeout(function() {
+      document.getElementById("btnLogin").click();
+  }, 2000);
+
+});
+</script>
 
 </body>
 
